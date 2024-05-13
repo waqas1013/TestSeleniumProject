@@ -12,6 +12,7 @@ target/
 *.iml
 *.ipr
 .idea/encodings.xml
+.idea/workspace.xml
 
 
 ### Eclipse ###
