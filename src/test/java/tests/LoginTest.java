@@ -25,6 +25,7 @@ public class LoginTest {
     @Test
     public void testLogin(){
         loginScreen.enterLoginDetails();
+        defaultDriver.tearDown();
     }
 
 }
