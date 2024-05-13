@@ -15,6 +15,6 @@ public class LoginScreen {
     public void enterLoginDetails() {
         webDriver.findElement(By.name("uid")).sendKeys(helper.readDataFromFile("username"));
         webDriver.findElement(By.name("password")).sendKeys(helper.readDataFromFile("password"));
-        webDriver.findElement(By.name("btnLogin")).click();
+        //webDriver.findElement(By.name("btnLogin")).click();
     }
 }
